@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url("./navBar.css");
+
+/* Variáveis a serem usadas no site todo*/
+:root{
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #8E2424;
+    --cor-titulos: #101828;
+    --cor-textos: #667085;
+    --cor-detalhe: #C3191908;
+    --cor-logo: #3A404E;
+
+    --dp-flex:flex;
+}
+/* Css Reset */
+body, h1, h2, h3, a, p, ul, li, div {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+p, a{
+    color: var(--cor-textos);
+}
+body{
+    width: 100%;
+}
+

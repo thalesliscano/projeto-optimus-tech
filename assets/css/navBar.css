@@ -1,0 +1,57 @@
+.menu{
+    background-color: var(--cor-primaria);
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+    margin: 0 30px 0 70px ;
+    align-items: center;
+    box-sizing: border-box;
+}
+.menu__navbar{
+    display: var(--dp-flex);
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.menu__navbar__marca{
+    display: var(--dp-flex);
+    align-items: center;
+    gap: 8px;
+}
+.menu__navbar__marca__container-img{
+    width: 30px;
+    color: var(--cor-secundaria);
+}
+.menu__navbar__marca__container-img__logo{
+    max-width: 100%;
+    display: block;
+    filter: invert(16%) sepia(93%) saturate(748%) hue-rotate(345deg) brightness(92%) contrast(94%);
+}
+
+.menu__navbar__links{
+    display: var(--dp-flex);
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    left: -10%;
+}
+.menu__nav__links__item__link{
+    padding: 10px 18px;
+    border-bottom: 2px solid transparent;
+
+}
+.menu__nav__links__item__link:hover{
+    border-bottom: 2px  solid var(--cor-secundaria);
+}
+
+.menu__navbar__singin-singup{
+    display: var(--dp-flex);
+    gap: 25px;
+    align-items: center;
+}
+.singup{
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    padding: 10px 18px;
+    border-radius: 8px;
+}
