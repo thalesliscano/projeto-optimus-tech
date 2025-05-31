@@ -1,0 +1,22 @@
+.secao__metrica-resultado{
+    display: flex;
+    text-align: start;
+    padding: 0px 100px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.secao__metrica-resultado__item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 280px;
+    gap: 8px;
+}
+.secao__metrica-resultado__item__dados{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: var(--cor-secundaria);
+}
+.secao__metrica-resultado__item__subtitulo{
+    color: var(--cor-titulos);
+}
