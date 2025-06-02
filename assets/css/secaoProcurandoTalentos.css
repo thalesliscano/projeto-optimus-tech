@@ -1,0 +1,36 @@
+.secao__procurando-talentos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.secao__procurando-talentos__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.secao__procurando-talentos__descricao__subtitulo{
+    align-self: center;
+    font-size: 0.875rem ;
+    background-color: var(--cor-secundaria-alpha);
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.secao__procurando-talentos__descricao__titulo{
+    font-size: 2.25rem;
+}
+.secao__procurando-talentos__descricao__descricao{
+    font-size: 1.25rem;
+}
+
+.secao__procurando-talentos__container-img{
+    background-color: #000;
+    margin: 0 auto;
+
+}
+.secao__procurando-talentos__container-img__img{
+    display: block;
+}
