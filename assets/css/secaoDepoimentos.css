@@ -1,0 +1,40 @@
+.secao__depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 300px;
+    padding: 60px;
+    text-align: center;
+    background-color: var(--cor-secundaria-alpha);
+    gap: 16px;
+}
+
+.secao__depoimentos__subtitulo{
+    font-size: .875rem;
+    color: var(--cor-secundaria);
+}
+.secao__depoimentos__titulo{
+    font-size: 2.75rem;
+}
+.secao__depoimentos__container-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.secao__depoimentos__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secao__depoimentos__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+

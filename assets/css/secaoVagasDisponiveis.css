@@ -4,7 +4,8 @@
     align-items: flex-start;
     /* importante para alinhar à esquerda */
     gap: 30px;
-    padding: 0 300px;
+    /* padding: 0 300px; */
+    padding: 0 25%;
     /* ou o espaçamento lateral que quiser */
 }
 

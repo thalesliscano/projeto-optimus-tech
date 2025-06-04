@@ -4,12 +4,13 @@
 @import url("./secaoMetricas.css");
 @import url("./secaoProcurandoTalentos.css");
 @import url("./secaoVagasDisponiveis.css");
+@import url("./secaoDepoimentos.css");
 
 /* Variáveis a serem usadas no site todo*/
 :root{
     --cor-primaria: #FFFFFF;
     --cor-secundaria: #8E2424;
-    --cor-secundaria-alpha: rgba(228, 147, 147, 0.9);
+    --cor-secundaria-alpha: rgb(255, 232, 232);
     --cor-titulos: #101828;
     --cor-textos: #667085;
     --cor-detalhe: #C3191908;
