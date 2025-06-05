@@ -5,6 +5,7 @@
 @import url("./secaoProcurandoTalentos.css");
 @import url("./secaoVagasDisponiveis.css");
 @import url("./secaoDepoimentos.css");
+@import url("./footer.css");
 
 /* Variáveis a serem usadas no site todo*/
 :root{
@@ -15,6 +16,7 @@
     --cor-textos: #667085;
     --cor-detalhe: #C3191908;
     --cor-logo: #3A404E;
+    --cor-borda-input: #D0D5DD;
 
     --dp-flex:flex;
 }

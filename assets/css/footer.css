@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px 0px 100px;
+    padding: 60px;
+    text-align: center;
+    gap: 20px;
+}
+.footer__titulo{
+    font-size: 2.75rem;
+}
+.footer__texto{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.footer__forms{
+    margin-bottom: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer__forms #email{
+    width: 300px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--cor-borda-input);
+    padding: 10px;
+}
+
+.footer__forms__btn {
+  background-color: var(--cor-secundaria);
+  color: white;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.footer__forms__btn:hover {
+  background-color: #3730a3;
+}
+
+
